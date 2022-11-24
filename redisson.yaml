@@ -1,0 +1,16 @@
+singleServerConfig:
+  pingConnectionInterval: 0
+  idleConnectionTimeout: 10000
+  connectTimeout: 10
+  timeout: 10
+  retryAttempts: 0
+  retryInterval: 10
+  subscriptionsPerConnection: 0
+  subscriptionConnectionMinimumIdleSize: 0
+  subscriptionConnectionPoolSize: 0
+  connectionMinimumIdleSize: 1
+  connectionPoolSize: 1
+  address: "redis://localhost:6378"
+threads: 1
+nettyThreads: 1
+codec: !<org.redisson.codec.SnappyCodec> {}
